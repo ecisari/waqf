@@ -1,0 +1,73 @@
+footer{
+	background:#ffffff;
+	bottom:0;
+	-webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.32);
+	-moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.32);
+	box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.32);
+	position:fixed;
+	text-align:center;
+	width:100%;
+}
+
+.btn-transfer{
+	background-color: #0B9181;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    box-shadow: 0px -10px 7px -3px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    left: 50%;
+    position: absolute;
+    top: -33px;
+    transform:translateX(-50%);
+    width: 50px;
+    
+}
+@media(max-width:320px) {
+    .btn-transfer{
+		top: -36px;
+	}
+}
+.btn-transfer svg{
+	left: -1px;
+    position: relative;
+    top: 8px;
+}
+
+.btn-transfer-text{
+	display:block;
+	font-size:14px;
+	text-align:center;
+}
+@media(max-width:370px) {
+    .btn-transfer-text{
+		font-size:12px;
+	}
+}
+
+@media(max-width:320px) {
+    .btn-transfer-text{
+		font-size:11px;
+	}
+}
+
+.menu-bottom{
+	display:inline-block;
+	padding:15px 0px;
+	position:relative;
+	margin:0px 3.2%;
+}
+@media(max-width:320px) {
+    .menu-bottom{
+		
+		padding:10px 0px;
+	}
+}
+
+.menu-bottom:hover{
+	color:#0B9181;
+}
+.menu-bottom .transfer-icon{
+	font-size:40px;
+}

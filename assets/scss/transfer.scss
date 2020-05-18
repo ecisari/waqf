@@ -1,0 +1,24 @@
+
+.transfer__wrapper{
+  background-color:#FAFAFA;
+  position:relative;
+  width: 100%;
+  min-height: 100vh;
+  padding-top:80px;
+}
+
+
+.transfer__wrapper .middle-position{
+  top:0;
+}
+@media(min-width:768px){
+  .transfer__wrapper .middle-position{
+    top:25%;
+  }
+}
+
+@media(min-width:992px){
+  .transfer__wrapper .middle-position{
+    top:50%;
+  }
+}

@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+
+
+%extend_1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	iframe {
+		@extend %extend_1;
+	}
+	object {
+		@extend %extend_1;
+	}
+	embed {
+		@extend %extend_1;
+	}
+}
+
+.hero.is-primary.is-bold.hero-home {
+	background:url('/static/hero-home.jpg') no-repeat left top fixed;
+	background-size: cover;
+}
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+// Import a Google Font
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+// Set your brand colors
+$purple: #69a297;
+$pink: #84b59f;
+$brown: #757763;
+$beige-light: #50808e;
+$beige-lighter: #a3c9a8;
+
+// Update Bulma's global variables
+$family-sans-serif: "Open Sans", sans-serif;
+//$grey-dark: $purple;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $purple;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+//$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+
+
+@import "./node_modules/bulma/bulma";
+@import "./node_modules/bulma-timeline/src/sass/index.sass";
+
+
+@import "assets/scss/app.scss";
+

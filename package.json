@@ -1,0 +1,35 @@
+{
+  "name": "waqf.network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production pm2 start server.js --name waqf-network"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.2",
+    "body-parser": "^1.18.3",
+    "bulma": "^0.7.2",
+    "bulma-timeline": "^3.0.0",
+    "express": "^4.16.4",
+    "formik": "^1.4.3",
+    "helmet": "^3.15.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "mongoose": "^5.4.10",
+    "next": "^7.0.2",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-router-dom": "^5.2.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "yup": "^0.26.10"
+  }
+}
